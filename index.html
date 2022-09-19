@@ -71,7 +71,7 @@
                             <span class="title__decor">лучшей <br> недвижимости</span> дубая
                         </h2>
                     </div>
-                    <button class="btn catalog__text-btn">Получить каталог</button>
+                    <button class="btn catalog__text-btn" data-modal="show">Получить каталог</button>
                     <div class="catalog__items">
                         <div class="catalog__item">
                             <div class="catalog__item-title ff-2">
@@ -284,14 +284,14 @@
                         <div class="swiper-slide">
                             <picture>
                                 <source srcset="./img/cavalli-tower-galler.webp" type="image/webp">
-                                <img class="suggest__img img-fluid" width="1546" height="760" src="./img/cavalli-tower-galler.jpg"
-                                    alt="cavalli-tower-galler">
+                                <img class="suggest__img img-fluid" width="1546" height="760"
+                                    src="./img/cavalli-tower-galler.jpg" alt="cavalli-tower-galler">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source srcset="./img/cavalli-tower-galler.webp" type="image/webp">
-                                <img class="suggest__img img-fluid" width="1546" height="760" src="./img/cavalli-tower-galler.jpg"
+                                <source srcset="./img/dubai-2.webp" type="image/webp">
+                                <img class="suggest__img img-fluid" width="1546" height="760" src="./img/dubai-2.jpg"
                                     alt="cavalli-tower-galler">
                             </picture>
                         </div>
@@ -300,6 +300,391 @@
             </div>
             <div class="swiper-pagination suggest__pagination"></div>
         </div>
+    </div>
+    <div class="about" id="about">
+        <div class="about__header">
+            <div class="about__w">
+                w
+            </div>
+            <h2 class="about__title title d-f-center">
+                О Компании
+            </h2>
+            <div class="about__images">
+                <picture>
+                    <source srcset="./img/about-1.webp" type="image/webp">
+                    <img class="about__img" width="588" height="234" src="./img/about-1.jpg" alt="about-1">
+                </picture>
+                <picture>
+                    <source srcset="./img/about-2.webp" type="image/webp" media="(min-width: 1024px)">
+                    <source srcset="./img/about-2.jpg" type="image/jpeg" media="(min-width: 1024px)">
+                    <img class="about__img about__img--sec" width="588" height="234" src="./img/logo.svg" alt="about-2">
+                </picture>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__team">
+                    <picture>
+                        <source srcset="./img/team.webp" type="image/webp">
+                        <img width="270" height="250" class="img-fluid" src="./img/team.jpg" alt="team">
+                    </picture>
+                    <p>
+                        <b>Константин Ковалёв</b>
+                        генеральный директор
+                    </p>
+                    <button class="btn">связаться с нами</button>
+                </div>
+                <div class="about__info">
+                    <div class="about__text">
+                        <p>
+                            Webster — один из мировых лидеров в области недвижимости. Международная компания была
+                            основана 1855
+                            году и в настоящий момент насчитывает более 39 000 сотрудников, работающих в 700 офисах в
+                            более чем
+                            70 странах мира, в том числе в Великобритании, странах Европы, Америки, Азии и Ближнего
+                            Востока.
+                        </p>
+                        <p>
+                            Webster предлагает широкий спектр услуг, включая услуги по купле-продаже, аренде и
+                            инвестициям в
+                            недвижимость по всему миру, консалтингу, управлению недвижимостью, а также получение
+                            гражданства за
+                            инвестиции в недвижимость.
+                        </p>
+                    </div>
+                    <h4 class="about__info-title title title--sec">
+                        Наши клиенты гарантированно получают
+                        безупречный сервис, конфиденциальность
+                        и индивидуальный подход в реализации их запросов
+                    </h4>
+                    <button class="btn">связаться с нами</button>
+                </div>
+            </div>
+        </div>
+        <img class="about__decor" width="306" height="234" src="./img/about-decor.svg" alt="about-decor">
+    </div>
+    <div class="contacts">
+        <picture>
+            <source srcset="./img/dubai-2-mob.webp" media="(max-width: 767px)" type="image/webp">
+            <source srcset="./img/dubai-2-mob.jpg" media="(max-width: 767px)" type="image/jpeg">
+            <source srcset="./img/dubai-2.webp" type="image/webp">
+            <img class="contacts__bg" width="1000" height="561" src="./img/dubai-2.jpg" alt="dubai-2">
+        </picture>
+        <div class="contacts__inner" id="contacts">
+            <div class="container">
+                <div class="contacts__inner-items">
+                    <div class="contacts__block">
+                        <div class="contacts__items">
+                            <div class="contacts__title">
+                                ЗАСТРОЙЩИКи
+                            </div>
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Emaar
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        DAMAC
+
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Meraas
+
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Dubai Properties
+
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Select Group
+
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        LIV Developers
+
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Omniyat
+
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Seven Tides
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts__items contacts__items--price">
+                            <div class="contacts__title">
+                                ПРОЕКТЫ
+                            </div>
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        <picture>
+                                            <source srcset="./img/project-1.webp" type="image/webp">
+                                            <img class="img-fluid" width="110" height="70" src="./img/project-1.jpg"
+                                                alt="project-1">
+                                        </picture>
+                                        <span class="contacts__link-text">
+                                            Квартиры <br>
+                                            Цены <br> от
+                                            <span class="contacts__link-price">
+                                                $ 247,527
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        <picture>
+                                            <source srcset="./img/project-2.webp" type="image/webp">
+                                            <img class="img-fluid" width="110" height="70" src="./img/project-2.jpg"
+                                                alt="project-2">
+                                        </picture>
+                                        <span class="contacts__link-text">
+                                            Виллы <br>
+                                            Цены <br> от
+                                            <span class="contacts__link-price">
+                                                $ 247,527
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts__items">
+                            <div class="contacts__title">
+                                РАЙОНЫ ДУБАЯ
+                            </div>
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Dubai Marina
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Downtown Dubai
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Business Bay
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Jumeirah
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Palm Jumeirah
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Dubail Hills Estate
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts__items">
+                            <div class="contacts__title">
+                                О компании
+                            </div>
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Управление недвижимостью
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Недвижимость в Дубае за Биткоин
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Дизайн интерьера в Дубае
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Недвижимость в Абу-Даби
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts__items">
+                            <div class="contacts__title">
+                                УСЛУГИ
+                            </div>
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Купить квартиру в Дубае
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Продать квартиру в Дубае
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Снять квартиру в Дубае
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Ипотека в Дубае
+                                    </a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="http://test.test" class="contacts__link">
+                                        Приемка квартиры в Дубае
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__form-title ff-2">
+                            Получить консультацию
+                        </div>
+                        <p class="contacts__form-info">
+                            Оставьте ваши контактные данные и
+                            получите консультацию специалиста
+                        </p>
+                        <div class="contacts__form-item">
+                            <input class="base-input" type="text" placeholder="Ваше имя">
+                        </div>
+                        <div class="contacts__form-item">
+                            <input class="base-input" required type="email" placeholder="E-mail">
+                        </div>
+                        <div class="contacts__form-item">
+                            <input class="base-input" type="tel" placeholder="Телефон">
+                        </div>
+                        <button type="submit" class="btn contacts__form-btn">отправить</button>
+                    </form>
+                    <a href="tel:+74951365485" class="contacts__ring d-f-center">
+                        <img class="img-fluid" width="57" height="57" src="./img/ring.svg" alt="ring">
+                    </a>
+                </div>
+            </div>
+            <div class="contacts__footer d-f-center">
+                <img width="239" height="54" class="contacts__logo img-fluid" src="./img/logo.svg" alt="logo">
+                <div class="contacts__footer-items d-f-center">
+                    <div class="contacts__footer-item contacts__footer-item--half d-f-center">
+                        <a href="tel:+74951365485">+7 (495) 136-54-85</a>
+                        <a href="mailto:leads@webstercompany.ru">leads@webstercompany.ru</a>
+                    </div>
+                    <div class="contacts__footer-item contacts__footer-media d-f-center">
+                        <a class="d-f-center" href="http://tg.com" target="_blank" rel="noopener noreferrer">
+                            <svg class="media-icon media-icon--tg" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 42 42">
+                                <path class="media-icon__bg"
+                                    d="M41.4598,25.70918a20.99475,20.99475,0,1,0-25.169,15.7506A20.99477,20.99477,0,0,0,41.4598,25.70918Z" />
+                                <path class="media-icon__item"
+                                    d="M10.12988,19.51822q10.1488-4.51365,13.534-5.952c6.4454-2.737,7.7847-3.2127,8.657-3.2284a1.50522,1.50522,0,0,1,.8998.2755,1.0068,1.0068,0,0,1,.3304.6421,4.25335,4.25335,0,0,1,.0386.9322c-.3492,3.7468-1.8603,12.8385-2.6291,17.0351-.3249,1.7756-.9659,2.3705-1.586,2.429-1.3481.127-2.3713-.9097-3.6764-1.7835-2.0431-1.3674-3.1963-2.2175-5.1788-3.5523-2.2909-1.5417-.8062-2.3885.5-3.7739.3415-.3621,6.2802-5.8766,6.3947-6.377a.49327.49327,0,0,0-.1079-.4195.52221.52221,0,0,0-.4802-.0472q-.30735.0708-9.7892,6.6065a4.35348,4.35348,0,0,1-2.5167.9491,16.23627,16.23627,0,0,1-3.60708-.8715c-1.45384-.4825-2.60811-.7377-2.50788-1.5564q.0793-.63915,1.727-1.3089Z" />
+                            </svg>
+                        </a>
+                        <a class="d-f-center" href="http://vk.com" target="_blank" rel="noopener noreferrer">
+                            <svg class="media-icon media-icon--vk" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 42 42">
+                                <path class="media-icon__bg"
+                                    d="M32.7822,41.6881,21,42,9.33911,41.6881A9.32021,9.32021,0,0,1,.27723,32.5916L0,21,.27723,9.40842A9.30812,9.30812,0,0,1,9.33911.31188L21,0,32.7822.31188a9.30086,9.30086,0,0,1,9.0619,9.18317L42,20.9827l-.1559,11.5049a9.30119,9.30119,0,0,1-9.0619,9.1832" />
+                                <path class="media-icon__item"
+                                    d="M31.3094,23.4258a14.34316,14.34316,0,0,0-3.01481-2.3565,16.63986,16.63986,0,0,0,1.90591-1.6287A12.64408,12.64408,0,0,0,34.0644,12.25H29.45549A10.17362,10.17362,0,0,1,22.802,19.3367V12.25H18.26239V24.708c-4.59159-1.6461-6.6708-7.208-6.6708-12.25V12.25H7.052v.208a20.5772,20.5772,0,0,0,3.3961,11.8168C13.02969,27.8614,17.10149,29.75,22.75,29.75h.0347l.03459-6.2029c3.0495.2945,6.1164,3.2054,7.3639,6.2029H34.948a13.97869,13.97869,0,0,0-3.62121-6.3069" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="contacts__footer-item contacts__footer-item--since">
+                        <span>© ООО «Вебстер Эстейт». 2020</span>
+                    </div>
+                    <div class="contacts__footer-item contacts__footer-item--politics d-f-center column align-start">
+                        <a href="http://confi.com" target="_blank" rel="noopener noreferrer">
+                            Политика конфиденциальности
+                        </a>
+                        <a href="http://confi.com" target="_blank" rel="noopener noreferrer">
+                            Пользовательское соглашение
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal d-f-center ff-2 d-none">
+        <div class="modal__inner">
+            <div class="modal__header">
+                <div class="modal__close d-f-center" data-touch-hover data-modal="hide">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="modal__title ff-2">
+                    Скачать каталог
+                </div>
+                <div class="modal__sub-title ff-2">
+                    PDF-файл
+                </div>
+            </div>
+            <form action="#" class="modal__form">
+                <div class="modal__form-item">
+                    <label for="name">
+                        Ваше имя
+                    </label>
+                    <input type="text" id="name" class="base-input" placeholder="Имя">
+                </div>
+                <div class="modal__form-item">
+                    <label for="phone">
+                        Телефон *
+                    </label>
+                    <input required type="tel" id="phone" class="base-input" placeholder="">
+                </div>
+                <div class="modal__form-item">
+                    <label for="mail">
+                        E-mail
+                    </label>
+                    <input type="email" id="mail" class="base-input" placeholder="E-mail">
+                </div>
+                <button type="submit" class="btn">Скачать каталог</button>
+                <div class="modal__rule">
+                    <span>Нажимая на кнопку "Скачать каталог", Вы соглашаетесь</span> <br>
+                    c <a href="http://privacy/com" target="_blank" rel="noopener noreferrer">
+                        Политикой конфиденциальности
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="modal__fade" data-modal="hide"></div>
     </div>
     <script src="js/swiper.min.js"></script>
     <script src="js/main.min.js"></script>
